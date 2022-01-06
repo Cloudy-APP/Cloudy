@@ -3,7 +3,7 @@ import * as path from 'path'
 
 const vueConfig: ProjectOptions = {
   pwa: {
-    name: '',
+    name: 'Cloudy',
     themeColor: '',
     appleMobileWebAppCapable: '',
     workboxPluginMode: '',
@@ -16,7 +16,7 @@ const vueConfig: ProjectOptions = {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src/'),
-        '>>': path.resolve(__dirname, 'public/'),
+        '>>': path.resolve(__dirname, 'tests/'),
       },
     },
   },
